@@ -86,10 +86,10 @@ const ContactInfoSidebar = ({ contactInfo }: ContactInfoSidebarProps) => {
             <div>
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-0.5">Email</p>
               <a
-                href="mailto:hello@mitetal.com"
+                href="mailto:contact@mitetal.com"
                 className="text-primarymitetal-600 hover:text-primarymitetal-800 font-medium transition-colors duration-200 text-sm"
               >
-                hello@mitetal.com
+                contact@mitetal.com
               </a>
             </div>
           </div>

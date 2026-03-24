@@ -40,8 +40,8 @@ export const globalMock = {
         country: "",
         email: {
           id: 10,
-          url: "mailto:hello@mitetal.com",
-          text: "hello@mitetal.com",
+          url: "mailto:contact@mitetal.com",
+          text: "contact@mitetal.com",
           isExternal: false,
         },
         phone: {
@@ -441,8 +441,8 @@ export const contactMock = {
           color: "blue",
           action: {
             id: 1,
-            url: "mailto:hello@mitetal.com",
-            text: "hello@mitetal.com",
+            url: "mailto:contact@mitetal.com",
+            text: "contact@mitetal.com",
             isExternal: true,
           },
         },
@@ -465,7 +465,7 @@ export const contactMock = {
     {
       __component: "components.contact-info",
       id: 3,
-      email: "hello@mitetal.com",
+      email: "contact@mitetal.com",
       phone: "",
       address: "",
       hours: "",
@@ -521,7 +521,7 @@ export const guideMock = {
           id: "guide-1",
           type: "rich-content",
           content: {
-            text: "# Getting Started with Mite Tal\n\nThis guide walks you through what we do and how to start a project with us.\n\n## What We Build\n\n| Service | Best For |\n|---|---|\n| AR Learning Tools | Classrooms, exhibits, printed materials |\n| WebGL Modules | Low-bandwidth, no-install environments |\n| Animated Videos | NGOs, schools, YouTube audiences |\n| YouTube Channels | Bite-sized, broad educational content |\n\n## How to Get Started\n\n1. **Reach out** — Send us a message at hello@mitetal.com or use the contact form.\n2. **Discovery call** — We'll learn about your goals, audience, and timeline.\n3. **Proposal** — We'll send a scope and quote tailored to your project.\n4. **Build** — We design, produce, and deliver your experience.\n\n## Ready to Start?\n\nContact our team for a free consultation.",
+            text: "# Getting Started with Mite Tal\n\nThis guide walks you through what we do and how to start a project with us.\n\n## What We Build\n\n| Service | Best For |\n|---|---|\n| AR Learning Tools | Classrooms, exhibits, printed materials |\n| WebGL Modules | Low-bandwidth, no-install environments |\n| Animated Videos | NGOs, schools, YouTube audiences |\n| YouTube Channels | Bite-sized, broad educational content |\n\n## How to Get Started\n\n1. **Reach out** — Send us a message at contact@mitetal.com or use the contact form.\n2. **Discovery call** — We'll learn about your goals, audience, and timeline.\n3. **Proposal** — We'll send a scope and quote tailored to your project.\n4. **Build** — We design, produce, and deliver your experience.\n\n## Ready to Start?\n\nContact our team for a free consultation.",
           },
         },
       ],

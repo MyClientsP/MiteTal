@@ -149,4 +149,4 @@ STRAPI_API_TOKEN=your_token_here
 ## Contact
 
 **Mite Tal**
-hello@mitetal.com
+contact@mitetal.com

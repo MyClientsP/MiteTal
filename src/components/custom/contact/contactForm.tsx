@@ -46,7 +46,7 @@ const ContactForm = ({ contactForm }: ContactFormProps) => {
         `Phone: ${formData.phone}\n\n` +
         `Message:\n${formData.message}`
       );
-      window.location.href = `mailto:hello@mitetal.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:contact@mitetal.com?subject=${subject}&body=${body}`;
 
       setSubmitStatus('success');
       setFormData({ name: '', email: '', company: '', phone: '', message: '' });
@@ -72,7 +72,7 @@ const ContactForm = ({ contactForm }: ContactFormProps) => {
       {submitStatus === 'error' && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
           <span className="text-red-800">
-            Something went wrong. Please email us directly at hello@mitetal.com
+            Something went wrong. Please email us directly at contact@mitetal.com
           </span>
         </div>
       )}
