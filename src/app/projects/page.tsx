@@ -107,7 +107,7 @@ const ProjectsPage = async () => {
 		cta={projectsData.cta}
       />
       
-      <FilterClient projectsData={projectsData} />
+      {/* <FilterClient projectsData={projectsData} /> */}
       
       <CTASection />
     </div>

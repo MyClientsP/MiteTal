@@ -172,7 +172,7 @@ const Footer = ({data}: FooterProps) => {
                 </Link>
               </Button>
               
-              <a
+              {/* <a
 			  href={chatBot.url}
 			  target="_blank"
 			  rel="noopener noreferrer"
@@ -181,7 +181,7 @@ const Footer = ({data}: FooterProps) => {
 			>
 			  <MessageCircle size={16} className="mr-2 group-hover:scale-110 transition-transform duration-200" />
 			  {chatBot.text}
-			</a>
+			</a> */}
 
             </div>
           </div>

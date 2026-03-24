@@ -74,10 +74,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ hero }) => {
 
         {/* CTA */}
         <a
-          href="#contact-form"
+          href="mailto:contact@mitetal.com?subject=New enquiry"
           className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primarymitetal-600 rounded-full font-semibold text-lg hover:bg-primarymitetal-50 transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-md"
         >
-          Send Us a Message
+          Mail to Us
           <ChevronRight className="w-5 h-5" />
         </a>
       </div>

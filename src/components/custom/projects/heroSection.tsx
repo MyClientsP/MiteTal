@@ -62,10 +62,11 @@ const HeroSection: React.FC<HeroSectionProps> = ({ heading, subHeading, descript
           </p>
 		  <div className="flex flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
 	          <a 
-	            href="/contact"
+	            href="https://www.youtube.com/@MiteTalContents"
+				target='_blank'
 	            className="inline-flex items-center px-8 py-4 bg-white text-primarymitetal-600 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
 	          >
-	            Let's Talk
+	            Explore Our YouTube
 	            <ChevronRight className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" />
 	          </a>
         </div>

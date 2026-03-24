@@ -27,30 +27,30 @@ const ContactUsPage = async () => {
     const offices        = data.blocks[4];
 
     return (
-        <div className="min-h-screen bg-white">
+        <HeroSection hero={hero} />
+        // <div className="min-h-screen bg-white">
 
-            <HeroSection hero={hero} />
 
-            <ContactMethodsSection contactData={contactMethods} />
+        //     {/* <ContactMethodsSection contactData={contactMethods} /> */}
 
-            <section id="contact-form" className="py-20 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid lg:grid-cols-3 gap-12">
-                        <div className="lg:col-span-2">
-                            <ContactForm contactForm={contactForm} />
-                        </div>
-                        <div className="lg:col-span-1">
-                            <ContactInfoSidebar contactInfo={contactInfo} />
-                        </div>
-                    </div>
-                </div>
-            </section>
+        //     {/* <section id="contact-form" className="py-20 bg-white">
+        //         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        //             <div className="grid lg:grid-cols-3 gap-12">
+        //                 <div className="lg:col-span-2">
+        //                     <ContactForm contactForm={contactForm} />
+        //                 </div>
+        //                 <div className="lg:col-span-1">
+        //                     <ContactInfoSidebar contactInfo={contactInfo} />
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </section> */}
 
-            {offices?.offices?.length > 0 && (
-                <OfficeLocationsSection office={offices} />
-            )}
+        //     {/* {offices?.offices?.length > 0 && (
+        //         <OfficeLocationsSection office={offices} />
+        //     )} */}
 
-        </div>
+        // </div>
     );
 };
 
